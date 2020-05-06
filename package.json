@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "make the image upload block",
   "scripts": {
-    "serve": "browser-sync start --server --files \"*.html, css/*.css, js/*.js\""
+    "serve": "browser-sync start --server --files \"*.html, css/*.css, js/*.js\"",
+    "gulp-serve": "gulp serve"
   },
   "author": "andrew",
   "license": "MIT",

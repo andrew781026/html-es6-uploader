@@ -44,9 +44,7 @@
         fileUploader.click();
     }
 
-    function click(e) {
-        handleFileSelect(e);
-    }
+    const click = e => handleFileSelect(e);
 
     // prevent the default method working
     function dragenter(e) {

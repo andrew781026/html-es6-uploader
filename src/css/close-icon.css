@@ -1,0 +1,26 @@
+.close {
+    cursor: pointer;
+    opacity: 0.3;
+    transform: translate(-13px, -13px);
+}
+
+.close:hover {
+    opacity: 1;
+}
+
+.close:before, .close:after {
+    position: absolute;
+    right: 0;
+    content: ' ';
+    height: 26px;
+    width: 2px;
+    background-color: #333;
+}
+
+.close:before {
+    transform: rotate(45deg);
+}
+
+.close:after {
+    transform: rotate(-45deg);
+}
