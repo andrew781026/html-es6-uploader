@@ -5,6 +5,7 @@ const browserSync = require('browser-sync').create();
 
 // 服務
 gulp.task('serve', function () {
+
     browserSync.init({
         server: {
             baseDir: "src/",
@@ -17,5 +18,4 @@ gulp.task('serve', function () {
             }
         ]
     });
-
 });

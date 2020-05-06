@@ -8,12 +8,10 @@
   },
   "author": "andrew",
   "license": "MIT",
-  "dependencies": {
-    "express": "^4.17.1",
-    "gulp": "^4.0.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.3",
+    "gulp": "^4.0.2"
   }
 }

@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Uploader</title>
+    <title>圖片上傳區塊</title>
     <link rel="stylesheet" type="text/css" href="css/close-icon.css">
     <link rel="stylesheet" type="text/css" href="css/upload-zone.css">
 </head>
 <body>
 <h1>練習 : 製作上傳圖片的區塊</h1>
-<input type="file" id="fileUploader" style="display: none" onchange="handleFiles(this.files)"/>
+<input type="file" multiple accept="image/*" id="fileUploader" style="display: none" onchange="handleFiles(this.files)"/>
 <div class="upload_zone">
     <div id="zone_title">
         <span>你可以將檔案拖曳到此視窗</span>
