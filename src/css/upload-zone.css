@@ -1,0 +1,95 @@
+.upload_zone {
+    width: 800px;
+    height: 500px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.zone_close_icon {
+    position: absolute;
+    right: 10px;
+}
+
+#zone_title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(222, 222, 222);
+    border: 1px solid rgba(144, 144, 144, 0.5);
+    border-radius: 10px 10px 0 0; /* 上左 上右 下右 下左 */
+    padding: 10px;
+}
+
+
+.zone_body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    border-left: 1px solid rgba(144, 144, 144, 0.5);
+    border-right: 1px solid rgba(144, 144, 144, 0.5);
+}
+
+#zone_footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgba(144, 144, 144, 0.5);
+    border-radius: 0 0 10px 10px; /* 上左 上右 下右 下左 */
+}
+
+.drop_files_here {
+    pointer-events: none; /* 不觸發 dragleave 事件 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px dashed rgb(144, 144, 144);
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    color: #535353;
+}
+
+.down_arrow {
+    font-size: 70px;
+    transform: scale(4, 2) translateY(-10px);
+}
+
+.down_arrow_active {
+    transform: scale(4, 2);
+}
+
+.drop_here_text {
+    font-size: 30px;
+}
+
+.display_none {
+    display: none;
+}
+
+#preview {
+    box-sizing: border-box;
+    overflow: auto;
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    width: 800px;
+    max-height: 450px;
+    float: left;
+    z-index: 10;
+    margin-right: 1px;
+}
+
+.preview_image {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
