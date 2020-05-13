@@ -3,7 +3,7 @@
 
 ### [Demo Page](https://andrew781026.github.io/html-es6-uploader/)
 
-![](https://i.imgur.com/bIb9Hj0.gif)
+[![](https://i.imgur.com/bIb9Hj0.gif)](https://andrew781026.github.io/html-es6-uploader/)
 
 you can use browsersync to control the browser reload :
 
