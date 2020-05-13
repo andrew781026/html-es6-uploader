@@ -1,9 +1,9 @@
 
 此專案顯示如何製作一個上傳圖片的區塊 , 以及如何將此區塊做美化
 
-### [Demo Page](https://andrew781026.github.io/html-es6-uploader/){:target="_blank"}
+### [Demo Page](https://andrew781026.github.io/html-es6-uploader/)
 
-[![](https://i.imgur.com/bIb9Hj0.gif)](https://andrew781026.github.io/html-es6-uploader/){:target="_blank"}
+[![](https://i.imgur.com/bIb9Hj0.gif)](https://andrew781026.github.io/html-es6-uploader/)
 
 you can use browsersync to control the browser reload :
 
