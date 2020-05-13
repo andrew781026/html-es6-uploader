@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上傳檔案列表</title>
+    <style type="text/css">
+        iframe {
+            width: 80vw;
+            height: 300px;
+        }
+
+        .container {
+            width: 80vw;
+            position: relative;
+        }
+
+        a {
+            position: absolute;
+            bottom: 30px;
+            right: 40px;
+        }
+
+        .icon {
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 30px;
+            height: 30px;
+            transition: all 0.3s;
+        }
+
+        .icon:hover {
+            background-color: #535353;
+        }
+
+        .icon-open {
+            display: inline-block;
+            background-position: center;
+            background-size: 70%;
+            background-repeat: no-repeat;
+            background-image: url('svg/open-black.svg');
+        }
+
+        .icon-open:hover,
+        .icon-open:focus {
+            background-image: url('svg/open-white.svg');
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <iframe src="src/index.html"></iframe>
+    <a href="src/index.html" title="全頁顯示" target="_blank">
+        <span class="icon icon-open"></span>
+    </a>
+</div>
+<div class="container">
+    <iframe src="src/styled.html"></iframe>
+    <a href="src/index.html" title="全頁顯示" target="_blank">
+        <span class="icon icon-open"></span>
+    </a>
+</div>
+
+</body>
+</html>
