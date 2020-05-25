@@ -19,6 +19,8 @@ some other things , you must know :
 
 建立上傳圖片區塊教學 : https://developer.mozilla.org/zh-TW/docs/Web/API/File/Using_files_from_web_applications
 
+## some good article to read 
+
 透過 lazy loading 延遲載入圖片 : https://medium.com/@mingjunlu/lazy-loading-images-via-the-intersection-observer-api-72da50a884b7
 
 如何建立像 KKTV 一樣的點播功能呢 ? https://ithelp.ithome.com.tw/articles/10207919
