@@ -24,3 +24,7 @@ some other things , you must know :
 透過 lazy loading 延遲載入圖片 : https://medium.com/@mingjunlu/lazy-loading-images-via-the-intersection-observer-api-72da50a884b7
 
 如何建立像 KKTV 一樣的點播功能呢 ? https://ithelp.ithome.com.tw/articles/10207919
+
+在網頁上循環打字 vue-typer : https://cngu.github.io/vue-typer/
+
+在網頁上循環打字 ( 純 JS . CSS ) : https://css-tricks.com/snippets/css/typewriter-effect/
